@@ -1,0 +1,31 @@
+body
+    {
+        margin:0;
+        padding:0;
+    }
+
+html
+    {
+        margin:0;
+        padding:0;
+    }
+
+.containers
+    {
+        height:70vh;
+        margin-left: 16vw;
+        background-color:rgb(20, 63, 36);
+        color:rgb(0, 204, 255);
+    }
+
+#full
+    {
+        background-color: rgb(9, 58, 58);
+        width:100%;
+        align-items: center;
+    }
+
+.text
+    {
+        background-color: brown;
+    }

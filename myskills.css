@@ -1,0 +1,341 @@
+html
+    {
+        padding-right:0px !important;
+        margin:0 auto;
+        width:100%;
+    }
+
+body    
+    {
+        padding:0;
+        margin: 0;
+        overflow-x:hidden;
+    }
+
+#full
+    {
+        background:white;
+      
+        width:100%;
+        
+    }
+
+#topnavbar
+    {
+        position: fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:8vh;
+        z-index:55;
+        font-family: 'Righteous', cursive;
+    }
+
+.back
+    {
+        font-size: 4em;
+        text-align: center;
+        color:white;
+        height:5vh;
+        float:left;
+        
+        justify-content: center;
+        line-height: 1vh;
+        cursor: pointer;
+    }
+
+.me
+    {
+        font-size: 200%;
+       
+        font-weight: bold;
+        text-align: center;
+        margin: 0 auto;
+        height:8vh;
+
+    }
+
+.content-heading 
+    {
+        text-align: center;
+        font-size: 3em;
+        color:rgb(4, 80, 110);
+        font-weight: bold;
+    }
+
+
+    @media screen and (max-width: 700px)
+    {
+        .content-heading {
+            
+        }
+    }
+
+
+#fir
+    {
+        padding-top: 15vh;
+        background-color: ;
+        width:100%;
+    }
+
+.row
+    {
+        background-color: ;
+    }
+
+
+.top-under
+    {
+        width:60%;
+        margin-left: 20%;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        height:3px;
+        background-color: rgb(46, 3, 86);
+    }
+
+#about
+    {
+        text-align: center;
+        font-size: 4vw;
+        font-family: 'Poiret One', cursive;
+        font-weight:bold;
+        width:100%;
+    }
+
+#myphoto    {
+    background-color: ;
+     padding: 5vh;
+     
+}
+
+@media screen and (max-width:680px) {
+    #myphoto    {
+        padding: 5vh;
+    }
+}
+
+.abouts
+    {
+        
+        margin-top:5vh;
+        background-color: ;
+        padding-top: 0vh;
+
+    }
+
+.cover
+    {
+        text-align: center;
+    }
+
+.hexagon 
+    {
+        position: relative;
+        width: 20vh;
+        height: 12vh;
+        
+        background-color:rgb(56, 153, 202);
+        margin: 3vw auto;
+    }
+
+.hexagon::before,
+.hexagon::after 
+    {
+        content: "";
+        position: absolute;
+        border-left: 10vh solid transparent;
+        border-right: 10vh solid transparent;
+    }
+
+.hexagon::before 
+    {
+        bottom: 100%;
+        border-bottom: 6vh solid rgb(56, 153, 202);
+    }
+
+.hexagon::after 
+    {
+        top: 100%;
+        border-top: 6vh solid rgb(56, 153, 202);
+    }
+
+.hexagon img
+    {
+       margin:0 auto;
+    }
+
+.hexagon .container
+    {
+        text-align: center;
+        display: block;
+        justify-content: center;
+        line-height: 12vh;
+    }
+
+#thr
+    {
+        width:100%;
+
+        background-color: transparent;
+    }
+
+.hexatext
+    {
+        text-align: center;
+        padding-left: 4vw; 
+        padding-right: 4vw; 
+        padding-top: 4vh;
+        font-size:1.3em; 
+        font-family: 'Rajdhani', sans-serif;
+        color:rgb(17, 16, 16);
+        font-weight: bolder;
+    }
+
+.flex
+    {
+       
+        margin-top: 5vh;
+        background-color: ;
+        height: 10vh;
+        display:flexbox;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-family: 'Questrial', sans-serif;
+        font-weight: bold;
+    }
+
+
+.image 
+    {
+        margin-top: 0px;
+        vertical-align: middle;
+        width: 100%;
+      }
+
+.img-left
+      {
+          object-fit: cover;
+          
+          width:100%;
+      }
+
+
+.overlay 
+    {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: ;
+    }
+      
+
+.rose
+    {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding:0;
+       
+    }
+      
+      /* Create four equal columns that sits next to each other */
+.chandler
+    {
+        -ms-flex: 50%; /* IE10 */
+        flex: 50%;
+        max-width: 50%;
+        padding: 0;
+        padding-top:0px;
+        width:80%;
+    }
+
+.indi
+    {
+        background-color: ;
+        height:12vh;
+        margin-top: 3vh;
+        margin-left: 0vh;
+        
+    }
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 700px) 
+    {
+        .chandler {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;
+          padding-left:10vw;
+        }
+    }
+
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other
+@media screen and (max-width: 20vw) 
+    {
+        .chandler {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;
+        }
+    } */
+
+.under
+    {
+        width:15vw !important;
+        height:2vh;
+        border-radius:3vw;
+        background-image:linear-gradient(to right,blue,purple);
+        float:left !important;
+        margin-left:1vw;
+    }
+
+.text
+    {  
+        font-size: 2em;
+        float:right;
+        text-align: left;
+        background-color: ;
+        width:80%;
+    }
+
+.logo
+    {
+        margin:0 auto;
+    }
+
+.lan
+    {
+        height:8vh;
+        justify-content: center;
+        line-height: 8vh;
+        background-color:;
+        margin-left:1vw;
+        margin-bottom: 0;
+    }
+
+.heads
+    {
+        font-size: 3em;
+        color:rgb(96, 0, 128);
+        text-align:center;
+        width:100%;
+        margin-top: 12vh;
+        font-family: 'Fredoka One', cursive;
+    }
+
+.skills
+    {
+        height:95vh;
+        padding-bottom: 10vh;
+        padding-top: 8vh;
+        }

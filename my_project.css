@@ -1,0 +1,125 @@
+body
+    {
+        margin:0;
+        padding:0;
+    }
+
+html
+    {
+        margin:0;
+        padding:0;
+    }
+
+.containers
+    {
+        height:70vh;
+        margin-left: 16vw;
+        background-color:rgb(20, 63, 36);
+        color:rgb(0, 204, 255);
+        padding-bottom: 10vh;
+    }
+
+#full
+    {
+        background-image: url(images/fog.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width:100%;
+        align-items: center;
+    }
+
+.text
+    {
+        background-color: brown;
+        text-align: center;
+    }
+
+#prac
+    {
+        margin:0 auto !important;
+        margin-top: auto !important;
+        background:green;
+        height: 10vh;
+    }
+
+.container
+    {
+        margin-top:0 !important;
+        background-color: transparent;
+        padding-bottom: 10vh;
+    }
+
+.container img
+    {
+        width:auto;
+        height:auto;
+        max-width: 100%;
+        height:50vh;
+    }
+
+.row
+    {
+        border: 2px solid black;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        background-color: rgba(233, 242, 250, 0.674);
+        font-weight:bold;
+        box-shadow: 8px 12px 18px rgb(0, 0, 0);
+        overflow:hidden;
+    }
+
+#topnavbar
+    {
+        position: fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:8vh;
+        z-index:55;
+        font-family: 'Righteous', cursive;
+    }
+
+.back
+    {
+        font-size: 4em;
+        text-align: center;
+        color: rgb(8, 63, 108);
+        height:5vh;
+        float:left;
+        margin-top: 0;
+        justify-content: center;
+        line-height: 1vh;
+        cursor: pointer;
+    }
+
+.me
+    {
+        font-size: 200%;
+        
+        font-weight: bold;
+        text-align: center;
+        margin:0 auto;
+        font-family: 'Righteous', cursive;
+        color: rgb(8, 63, 108);
+    }
+
+.heading
+    {
+        
+        margin-top:10vh;
+        border-top:none !important;
+        font-weight: bold;
+        padding-bottom: 5vh;
+        padding-top: 10vh;
+        font-size: 6vw;
+        font-family: 'Monoton', cursive;
+    }
+
+.para p   
+    {
+        font-size: 1.5em;
+        padding-top: 5vh;
+        font-family: 'Rajdhani', sans-serif;
+    }
+
